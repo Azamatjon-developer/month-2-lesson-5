@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    width: 1400px;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+    gap: 5px;
+
+
+}
+
+.boxes{
+    width: 382px;
+    height: 342px;
+    background-color: #c7bfbf58;
+    gap: 15px;
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column; 
+
+
+    
+
+
+   
+}
+
+.boxes img{
+    
+}
+
+.boxes h2{
+
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.boxes p{
+    text-align: center;
+
+}
+
+.boxes span{
+    color: rgb(95, 95, 210);
+
+}
